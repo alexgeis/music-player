@@ -1,0 +1,6 @@
+.time {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--timeColor);
+    text-align: right;
+    font-size: 30px;
+  }
