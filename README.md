@@ -31,7 +31,7 @@
     <a href="https://github.com/alexgeis/music-player"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a class="deployed_link" href="music-player-ang.netlify.app">View Demo</a>
+    <a class="deployed_link" href="https://music-player-ang.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/alexgeis/music-player/issues">Report Bug</a>
     ·
@@ -69,8 +69,8 @@
 
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](music-player-ang.netlify.app) -->
-<a class="deployed_link" href="music-player-ang.netlify.app">
+<!-- [![Product Name Screen Shot][product-screenshot]](https://music-player-ang.netlify.app/) -->
+<a class="deployed_link" href="https://music-player-ang.netlify.app/">
 <p align="center">
 <img id="product-screenshot" src="client/src/assets/img/player-screenshot.png" alt="Product Name Screen Shot"
 style="display: block;
