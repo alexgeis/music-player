@@ -3,4 +3,10 @@
     color: var(--timeColor);
     text-align: right;
     font-size: 30px;
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    .time {
+        text-align: center;
+    }
+}

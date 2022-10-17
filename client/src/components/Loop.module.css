@@ -8,3 +8,9 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+@media only screen and (max-width: 600px) {
+    .loop {
+        display: none;
+    }
+}
