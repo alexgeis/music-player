@@ -1,0 +1,7 @@
+{
+    "rules": {
+      "no-unused-vars": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "array-callback-return": "off"
+    }
+  }
