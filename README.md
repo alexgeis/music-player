@@ -1,5 +1,3 @@
-Search and replace keywords: `deployed_link`, `product-screenshot`
-
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
@@ -33,7 +31,7 @@ Search and replace keywords: `deployed_link`, `product-screenshot`
     <a href="https://github.com/alexgeis/music-player"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a class="deployed_link" href="https://github.com/alexgeis/music-player">View Demo</a>
+    <a class="deployed_link" href="music-player-ang.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/alexgeis/music-player/issues">Report Bug</a>
     ·
@@ -71,8 +69,8 @@ Search and replace keywords: `deployed_link`, `product-screenshot`
 
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-<a class="deployed_link" href="https://example.com">
+<!-- [![Product Name Screen Shot][product-screenshot]](music-player-ang.netlify.app) -->
+<a class="deployed_link" href="music-player-ang.netlify.app">
 <p align="center">
 <img id="product-screenshot" src="client/src/assets/img/player-screenshot.png" alt="Product Name Screen Shot"
 style="display: block;
