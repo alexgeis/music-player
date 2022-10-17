@@ -22,7 +22,7 @@ Search and replace keywords: `deployed_link`, `product-screenshot`
 <br />
 <div align="center">
   <a href="https://github.com/alexgeis/music-player">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="client/src/assets/icons/play.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Music Player</h3>
@@ -74,7 +74,7 @@ Search and replace keywords: `deployed_link`, `product-screenshot`
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 <a class="deployed_link" href="https://example.com">
 <p align="center">
-<img id="product-screenshot" src="images/screenshot.png" alt="Product Name Screen Shot"
+<img id="product-screenshot" src="client/src/assets/img/player-screenshot.png" alt="Product Name Screen Shot"
 style="display: block;
     margin-left: auto;
     margin-right: auto;
@@ -84,14 +84,15 @@ style="display: block;
 
 ### Built With
 
-- [Webpack](https://webpack.js.org/)
+<!-- - [Webpack](https://webpack.js.org/) -->
+
 - [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+<!-- - [Bootstrap](https://getbootstrap.com)
 - [Node.js](https://nodejs.dev/)
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [MySQL](https://www.mysql.com/)
-- [JQuery](https://jquery.com)
+- [JQuery](https://jquery.com) -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -139,10 +140,10 @@ Packages used in this project: -->
    ```sh
    npm start
    ```
-4. PRODUCTION - run "npm build" to bundle the page per the Webpack settings
-   ```sh
-   npm build
-   ```
+   <!-- 4. PRODUCTION - run "npm build" to bundle the page per the Webpack settings
+      ```sh
+      npm build
+      ``` -->
 
 <!-- API EXAMPLE
 1. Get a free API Key at [https://example.com](https://example.com)
@@ -165,9 +166,11 @@ Packages used in this project: -->
 
 ## Usage
 
-Useful examples of how a project can be used. Additional screenshots, code examples, demos, and/or links to more resources.
+Use the player buttons (play, pause, shuffle, skip, etc.) to navigate through the playlist, and utilize the search bar to quickly find a specific track.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Genre labels at the top of the player can be used to filter for specific sounds, and can be deselected if needed.
+
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -175,10 +178,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [x] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] Upload more music
+- [ ] Update color scheme
+- [ ] Ability to include album art
+- [ ] Ability to add URLs for a song/artist
+- [ ] Add individual artist spotlight pages
+- [ ] More filter options (song length, sort by played/unplayed, bpm)
+- [ ] More song info (bpm, key, album, art, etc.)
 
 See the [open issues](https://github.com/alexgeis/music-player/issues) for a full list of proposed features (and known issues).
 
@@ -233,14 +239,14 @@ Project Link: [https://github.com/alexgeis/music-player](https://github.com/alex
 Helpful resources and kudos.
 
 - [Choose an Open Source License](https://choosealicense.com)
-- [Img Shields](https://shields.io)
+<!-- - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 - [React Icons](https://react-icons.github.io/react-icons/search)
-- [Markdown Studio](https://readme.so/editor)
-- []()
-- []()
-- []()
+- [Markdown Studio](https://readme.so/editor) -->
+- Shoutout to [Madza](https://www.madza.dev/) for the helpful walkthrough on creating this player in React.js
+<!-- - []()
+- []() -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -260,4 +266,4 @@ Helpful resources and kudos.
 [license-url]: https://github.com/alexgeis/music-player/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/alexngeis
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: client/src/assets/img/player-screenshot.png
