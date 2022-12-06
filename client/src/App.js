@@ -1,25 +1,29 @@
 import { useState, useEffect, useRef } from "react";
 
 import { PageTemplate } from "./components/PageTemplate";
-import { TagsTemplate } from "./components/TagsTemplate";
-import { TagItem } from "./components/TagItem";
-import { Search } from "./components/Search";
-import { PlayerTemplate } from "./components/PlayerTemplate";
-import { TitleAndTimeBox } from "./components/TitleAndTimeBox";
-import { Title } from "./components/Title";
-import { Time } from "./components/Time";
-import { Progress } from "./components/Progress";
-import { ButtonsAndVolumeBox } from "./components/ButtonsAndVolumeBox";
-import { ButtonsBox } from "./components/ButtonsBox";
-import { Loop } from "./components/Loop";
-import { Previous } from "./components/Previous";
-import { Play } from "./components/Play";
-import { Pause } from "./components/Pause";
-import { Next } from "./components/Next";
-import { Shuffle } from "./components/Shuffle";
-import { Volume } from "./components/Volume";
-import { PlaylistTemplate } from "./components/PlaylistTemplate";
-import { PlaylistItem } from "./components/PlaylistItem";
+// tags
+import { TagsTemplate } from "./components/tags/TagsTemplate";
+import { TagItem } from "./components/tags/TagItem";
+// search
+import { Search } from "./components/search/Search";
+// player
+import { PlayerTemplate } from "./components/player/PlayerTemplate";
+import { TitleAndTimeBox } from "./components/player/TitleAndTimeBox";
+import { Title } from "./components/player/Title";
+import { Time } from "./components/player/Time";
+import { Progress } from "./components/player/Progress";
+import { ButtonsAndVolumeBox } from "./components/player/ButtonsAndVolumeBox";
+import { ButtonsBox } from "./components/player/ButtonsBox";
+import { Loop } from "./components/player/Loop";
+import { Previous } from "./components/player/Previous";
+import { Play } from "./components/player/Play";
+import { Pause } from "./components/player/Pause";
+import { Next } from "./components/player/Next";
+import { Shuffle } from "./components/player/Shuffle";
+import { Volume } from "./components/player/Volume";
+// playlist
+import { PlaylistTemplate } from "./components/playlist/PlaylistTemplate";
+import { PlaylistItem } from "./components/playlist/PlaylistItem";
 
 import loopCurrentBtn from "./assets/icons/loop_current.png";
 import loopNoneBtn from "./assets/icons/loop_none.png";
