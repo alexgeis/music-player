@@ -34,7 +34,8 @@ import nextBtn from "./assets/icons/next.png";
 import shuffleAllBtn from "./assets/icons/shuffle_all.png";
 import shuffleNoneBtn from "./assets/icons/shuffle_none.png";
 
-const fmtMSS = (s) => new Date(1000 * s).toISOString().substr(15, 4);
+// const fmtMSS = (s) => new Date(1000 * s).toISOString().substr(15, 4);
+const fmtMSS = (s) => new Date(1000 * s).toISOString().substring(15, 19);
 
 export const Player = ({ trackList }) => {
 	const [audio, setAudio] = useState(null);
@@ -49,11 +50,12 @@ export const Player = ({ trackList }) => {
 	const [shuffled, setShuffled] = useState(false);
 	const [looped, setLooped] = useState(false);
 
+	// playlist
 	let playlist = [];
 	const [filter, setFilter] = useState([]);
 	let [curTrack, setCurTrack] = useState(0);
 	const [query, updateQuery] = useState("");
-
+	// add all available tags to tags[]
 	const tags = [];
 	trackList.forEach((track) => {
 		track.tags.forEach((tag) => {
@@ -62,7 +64,7 @@ export const Player = ({ trackList }) => {
 			}
 		});
 	});
-
+	// create new Audio instance and update info
 	useEffect(() => {
 		const audio = new Audio(trackList[curTrack].url);
 
