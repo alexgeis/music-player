@@ -216,8 +216,6 @@ export const Player = ({ trackList }) => {
 			<PlayerTemplate>
 				<TrackInfoAndTimeBox>
 					<TrackInfo title={title} artist={artist} album={album} />
-					{/* <Artist artist={artist} />
-					<Album album={album} /> */}
 					<Time
 						time={`${!time ? "0:00" : fmtMSS(time)}/${
 							!length ? "0:00" : fmtMSS(length)

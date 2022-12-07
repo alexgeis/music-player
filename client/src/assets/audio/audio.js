@@ -7,7 +7,16 @@ import flush from "./flush.wav";
 import suseok from "./Suseok.wav";
 import noninertial from "./Noninertial.wav";
 
-export const tracks = [
+import lightBelow from "./Light_Below.wav";
+import control from "./Control.wav";
+import oneGreaterThanTwo from "./1_greaterthan_2.wav";
+import moonlight from "./Moonlight.wav";
+import firstClass from "./First_Class.wav";
+import cero from "./Cero.wav";
+import saloonTerminus from "./Saloon_Terminus.wav";
+import shenlong from "./Shenlong.wav";
+
+const immachination = [
 	{
 		url: proto,
 		title: "Proto",
@@ -65,3 +74,65 @@ export const tracks = [
 		tags: ["dubstep"],
 	},
 ];
+
+const theWorldGoesClarifying = [
+	{
+		url: lightBelow,
+		title: "Light Below",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["house", "pop"],
+	},
+	{
+		url: control,
+		title: "Control",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["dnb", "dubstep"],
+	},
+	{
+		url: oneGreaterThanTwo,
+		title: "1 > 2",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["trip-hop"],
+	},
+	{
+		url: moonlight,
+		title: "Moonlight",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["pop"],
+	},
+	{
+		url: firstClass,
+		title: "First Class",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["house"],
+	},
+	{
+		url: cero,
+		title: "Cero",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["electro"],
+	},
+	{
+		url: saloonTerminus,
+		title: "Saloon Terminus",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["pop"],
+	},
+	{
+		url: shenlong,
+		title: "Shenlong",
+		artist: "Peace Pleasure",
+		album: "The World Goes Clarifying",
+		tags: ["dubstep"],
+	},
+];
+
+export const tracks = [...immachination, ...theWorldGoesClarifying];
+console.log(tracks);

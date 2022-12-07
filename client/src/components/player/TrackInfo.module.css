@@ -11,8 +11,15 @@
 }
 .artist,
 .album {
-    color: var(--artistColor);
     font-size: 22px;
+}
+.artist {
+    color: var(--titleColor);
+    /* text-shadow: 0 0 20px var(--artistColor); */
+}
+.album {
+    color: var(--albumColor);
+    font-style: italic;
 }
 
 @media only screen and (max-width: 600px) {
