@@ -11,6 +11,8 @@ export const tracks = [
 	{
 		url: proto,
 		title: "Peace Pleasure - Proto",
+		artist: "Pleasure",
+		album: "Immachination",
 		tags: ["house"],
 	},
 	{

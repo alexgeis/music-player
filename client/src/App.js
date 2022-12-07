@@ -8,7 +8,7 @@ import { TagItem } from "./components/tags/TagItem";
 import { Search } from "./components/search/Search";
 // player
 import { PlayerTemplate } from "./components/player/PlayerTemplate";
-import { TitleAndTimeBox } from "./components/player/TitleAndTimeBox";
+import { TrackInfoAndTimeBox } from "./components/player/TrackInfoAndTimeBox";
 import { Title } from "./components/player/Title";
 import { Time } from "./components/player/Time";
 import { Progress } from "./components/player/Progress";
@@ -42,6 +42,8 @@ export const Player = ({ trackList }) => {
 	const [isPlaying, setIsPlaying] = useState(false);
 	const [hasEnded, setHasEnded] = useState(false);
 	const [title, setTitle] = useState("");
+	const [artist, setArtist] = useState("");
+	const [album, setAlbum] = useState("");
 	const [length, setLength] = useState(0);
 	const [time, setTime] = useState(0);
 	const [slider, setSlider] = useState(1);
@@ -210,14 +212,16 @@ export const Player = ({ trackList }) => {
 				placeholder={`Search ${trackList.length} tracks...`}
 			/>
 			<PlayerTemplate>
-				<TitleAndTimeBox>
+				<TrackInfoAndTimeBox>
 					<Title title={title} />
+					{/* <Artist artist={artist} />
+					<Album album={album} /> */}
 					<Time
 						time={`${!time ? "0:00" : fmtMSS(time)}/${
 							!length ? "0:00" : fmtMSS(length)
 						}`}
 					/>
-				</TitleAndTimeBox>
+				</TrackInfoAndTimeBox>
 				<Progress
 					value={slider}
 					onChange={(e) => {
