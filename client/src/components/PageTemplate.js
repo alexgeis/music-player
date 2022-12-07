@@ -1,3 +1,5 @@
+import styles from "./PageTemplate.module.css";
+
 export const PageTemplate = ({ children }) => {
-	return <div>{children}</div>;
+	return <div className={styles.wrapper}>{children}</div>;
 };

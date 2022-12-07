@@ -9,7 +9,7 @@ import { Search } from "./components/search/Search";
 // player
 import { PlayerTemplate } from "./components/player/PlayerTemplate";
 import { TrackInfoAndTimeBox } from "./components/player/TrackInfoAndTimeBox";
-import { Title } from "./components/player/Title";
+import { TrackInfo } from "./components/player/TrackInfo";
 import { Time } from "./components/player/Time";
 import { Progress } from "./components/player/Progress";
 import { ButtonsAndVolumeBox } from "./components/player/ButtonsAndVolumeBox";
@@ -92,6 +92,8 @@ export const Player = ({ trackList }) => {
 
 		setAudio(audio);
 		setTitle(trackList[curTrack].title);
+		setArtist(trackList[curTrack].artist);
+		setAlbum(trackList[curTrack].album);
 
 		return () => {
 			audio.pause();
@@ -213,7 +215,7 @@ export const Player = ({ trackList }) => {
 			/>
 			<PlayerTemplate>
 				<TrackInfoAndTimeBox>
-					<Title title={title} />
+					<TrackInfo title={title} artist={artist} album={album} />
 					{/* <Artist artist={artist} />
 					<Album album={album} /> */}
 					<Time
