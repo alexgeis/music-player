@@ -1,5 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
 import "./index.css";
 import { Player } from "./App";
 import { tracks } from "./assets/audio/audio.js";
@@ -22,7 +22,7 @@ import { tracks } from "./assets/audio/audio.js";
 // 	},
 // ];
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root") as Element);
 root.render(
 	<React.StrictMode>
 		<Player trackList={tracks} />
